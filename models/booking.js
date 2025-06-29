@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 
 const bookingSchema = new mongoose.Schema({
-  user: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
-  pitch: { type: mongoose.Schema.Types.ObjectId, ref: 'Pitch' },
-  date: { type: String, required: true },
+  userName: {type: String, required: true},
+  pitch: { type: mongoose.Schema.Types.ObjectId, ref: 'pitch',required: true },
+  date: {type: String, required: true },
   time: { type: String, required: true }
 });
 
