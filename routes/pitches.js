@@ -1,5 +1,5 @@
 const express = require('express');
-const Pitch = require('../models/Pitch');
+const Pitch = require('../models/pitch_temp');
 
 const router = express.Router();
 
