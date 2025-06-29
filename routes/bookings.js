@@ -1,6 +1,6 @@
 const express = require('express');
-const Booking = require('../models/Booking');
-const Pitch = require('../models/Pitch');
+const booking = require('../models/booking');
+const pitch = require('../models/pitch');
 const router = express.Router();
 
 // GET all bookings
